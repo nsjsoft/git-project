@@ -1,8 +1,0 @@
-ㅎㅎㅎ
-ruby_clent
-<<<<<<< HEAD
-main imsi
-다시 수정
-=======
-main imsi
->>>>>>> b0a451f (imsi 저장)
