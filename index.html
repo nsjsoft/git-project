@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const header1 = document.querySelector('#textContent');
+      const header2 = document.querySelector('#innerHTML');
+
+      const img = document.querySelector('img');
+
+      img.setAttribute('src', 'http://placekitten.com/200/200');
+    })
+  </script>
+</head>
+<body>
+  <h1 id="textContent">textCotent 속성 기존 문자열</h1>
+  <h1 id="innerHTML">innerHTML 속성 기존 문자열</h1>
+  <img src="" alt="">
+</body>
+</html>

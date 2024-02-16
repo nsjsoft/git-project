@@ -1,11 +1,9 @@
-let msg = 'Hello';
-
-function sayHello(name) {
-  if(name) {
-    msg += `, ${name}`;
+const BMW = function(color) {
+  const c = color;
+  this.getColor = function() {
+    console.log(c);
   }
-
-  console.log(msg);
 }
 
-sayHello('nsjsoft');
+const x5 = new BMW("red");
+console.log(x5.c);
