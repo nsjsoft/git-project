@@ -22,3 +22,10 @@ function Item(title, price) {
  const item3 = new Item('지갑', 9000);
 
  console.log(item1, item2, item3);
+
+ const promise = new Promise(resolve => {
+  console.log('ggg');
+  resolve('개발자');
+ })
+
+
