@@ -12,12 +12,32 @@
       const img = document.querySelector('img');
 
       img.setAttribute('src', 'http://placekitten.com/200/200');
+      
     })
+
+    class Rectangle {
+      constructor(width, height) {
+        this.width = width
+        this.height = height
+      }
+
+      getArea() {
+        return this.width * this.height
+      }
+    }
+
+    class Square extends Rectangle {
+      
+    }
+    const rect = new Rectangle(20, 10);
+    console.log(rect.getArea());
   </script>
 </head>
 <body>
   <h1 id="textContent">textCotent 속성 기존 문자열</h1>
   <h1 id="innerHTML">innerHTML 속성 기존 문자열</h1>
   <img src="" alt="">
+  <button>버튼</button>
+  <input type="text" name="txtName" id="txtName">
 </body>
 </html>
