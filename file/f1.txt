@@ -1,2 +1,3 @@
-B
-RB
+function() {
+  return 'common';
+}
