@@ -10,7 +10,7 @@ y = [5,6,7,8,9]
 # pyplot.show()
 def alert():
   print("버튼이 눌림")
-  
+
 win = Tk()
 win.geometry("1000x500")
 win.title("temp")
@@ -20,8 +20,6 @@ btn = Button(win, text="버튼")
 btn.config(width=20, height=20)
 btn.config(command=alert)
 btn.pack()
-
-
   
 win.mainloop()
 
