@@ -1,8 +1,17 @@
 from tkinter import *
 from datetime import datetime
+import requests
+from bs4 import BeautifulSoup
+
+#from requests import *
+
 #from matplotlib.pyplot import plot
 #from matplotlib.pyplot import show
 #from matplotlib import pyplot
+
+url = "https://www.dhlottery.co.kr/gameResult.do?method=byWin"
+#req = requests.get(url)
+#print(req.text)
 
 x = [1,2,3,4,5]
 y = [5,6,7,8,9]
@@ -18,7 +27,7 @@ win = Tk()
 win.geometry("300x100")
 win.title("로또 당첨번호")
 win.option_add("*Font", "나눔고딕 16")
-win.configure(bg='red') 
+win.configure(bg='blue') 
 
 ent = Entry(win)
 ent.pack()

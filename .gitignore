@@ -3,3 +3,9 @@ dist/*
 *.log
 .env
 .env.test
+*.zip
+*.toc
+*.pyc
+*.pyz
+*.pkg
+*.spec
