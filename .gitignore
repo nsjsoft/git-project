@@ -9,3 +9,9 @@ dist/*
 *.pyz
 *.pkg
 *.spec
+*.spec
+*.toc
+*.zip
+*.pkg
+*.pyz
+*.pyc
