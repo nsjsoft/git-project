@@ -1,0 +1,6 @@
+*.spec
+*.toc
+*.zip
+*.pkg
+*.pyz
+*.pyc
